@@ -1,0 +1,13 @@
+---
+eleventyNavigation:
+  key: Recipes
+---
+All Recipes:
+
+<nav class="vertical">
+  <ul>
+    {% for recipe in recipes -%}
+    <li><a href="{{recipe.title}}">{{recipe.title}}</a><li>
+    {% endfor -%}
+  </ul>
+</nav>

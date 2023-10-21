@@ -1,0 +1,8 @@
+---
+pagination:
+    data: recipes
+    size: 1
+    alias: recipe
+permalink: "recipes/{{ recipe.title | slugify }}/"
+---
+{% include "layouts/recipe.njk" %}

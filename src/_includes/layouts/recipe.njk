@@ -1,0 +1,15 @@
+<h1> {{ recipe.title }} </h1>
+<p> {{ recipe.summary}} </p>
+
+<div class="tags">
+  {% for tag in recipe.tags -%}
+  <span class="tag">#{{ tag }}</span>
+  {% endfor -%}
+</div>
+
+<div>
+  {% for ingredient in recipe.ingredients -%}
+  <div>{{ ingredient.title }}</div>
+  {% endfor -%}
+</div>
+

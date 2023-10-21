@@ -1,0 +1,20 @@
+{
+  "name": "mangiare",
+  "version": "1.0.0",
+  "description": "simple cook recipies for school kids",
+  "main": "index.js",
+  "scripts": {
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'contextstudio'",
+    "start": "eleventy --watch --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "paesku",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paesku/mangiare"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "2.0.1"
+  }
+}

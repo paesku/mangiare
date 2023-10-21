@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Bratkartoffeln",
+    "summary": "",
+    "duration": "~10min",
+    "tags": [
+      "easy",
+      "warm",
+      "herd"
+    ],
+    "images": [],
+    "personCount": 2,
+    "url": "https://www.gaumenfreundin.de/bratkartoffeln-einfach-und-knusprig",
+    "ingredients": [
+      {
+        "title": "Kartoffeln von zu Hause",
+        "unit": "kg",
+        "amount": "0.5"
+      },
+      {
+        "title": "Butterschmalz oder Pflanzenöl",
+        "unit": "g",
+        "amount": "25"
+      },
+      {
+        "title": "Salz und Pfeffer"
+      }
+    ]
+  }
+]
