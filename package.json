@@ -6,7 +6,7 @@
   "scripts": {
     "build": "env NODE_ENV=production npx eleventy --pathprefix 'contextstudio'",
     "start": "eleventy --watch --serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "debug": "DEBUG=* eleventy"
   },
   "author": "paesku",
   "license": "MIT",
