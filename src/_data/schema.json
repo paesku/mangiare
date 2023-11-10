@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Product",
+  "description": "A product in the catalog",
+  "type": "array",
+  "items": {
+    "properties": {
+      "title": {
+        "description": "Recipe title",
+        "type": "string"
+      },
+      "summary": {
+        "description": "Recipe summary",
+        "type": "string"
+      },
+      "duration": {
+        "description": "Duration how long the preparation will take",
+        "type": "string"
+      },
+      "tags": {
+        "description": "Tags",
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": [
+            "easy",
+            "medium",
+            "hard",
+            "warm",
+            "herd"
+          ]
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "images": {
+        "description": "Images",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "isTeaser": {
+              "description": "Marks teaser image",
+              "type": "boolean"
+            }
+          }
+        }
+      },
+      "personCount": {
+        "type": "number"
+      },
+      "url": {
+        "description": "external reference",
+        "type": "string"
+      },
+      "ingredients": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "unit": {
+              "type": "string",
+              "enum": [
+                "kg",
+                "g",
+                "ml",
+                "Esslöffel"
+              ]
+            },
+            "amount": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "title"
+          ]
+        }
+      },
+      "instructions": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "required": [
+            "summary"
+          ],
+          "properties": {
+            "summary": {
+              "description": "summary",
+              "type": "string"
+            },
+            "duration": {
+              "description": "duration for this instruction",
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "title",
+    "summary",
+    "duration",
+    "tags",
+    "images",
+    "personCount",
+    "url",
+    "ingredients",
+    "instructions"
+  ]
+}

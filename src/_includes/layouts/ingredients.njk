@@ -1,0 +1,7 @@
+{% for ingredient in recipe.ingredients -%}
+    <div>
+        <span>{{ ingredient.amount }}</span>
+        <span>{{ ingredient.unit }}</span>
+        <span>{{ ingredient.title }}</span>
+    </div>
+{% endfor -%}

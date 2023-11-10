@@ -1,0 +1,7 @@
+$spaces: 5;
+
+@for $i from 1 through $spaces {
+  .mb-#{$i} {
+    margin-bottom: (1 * $i) + rem;
+  }
+}

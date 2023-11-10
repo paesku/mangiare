@@ -1,13 +1,14 @@
 ---
 eleventyNavigation:
   key: Recipes
+layout: layouts/main.njk
 ---
 All Recipes:
 
 <nav class="vertical">
   <ul>
     {% for recipe in recipes -%}
-    <li><a href="{{recipe.title}}">{{recipe.title}}</a><li>
+    <li><a href="{{recipe.title | slugify}}">{{recipe.title}}</a></li>
     {% endfor -%}
   </ul>
 </nav>

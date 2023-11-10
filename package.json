@@ -1,7 +1,7 @@
 {
   "name": "mangiare",
   "version": "1.0.0",
-  "description": "simple cook recipies for school kids",
+  "description": "simple cook recipes for school kids",
   "main": "index.js",
   "scripts": {
     "build": "env NODE_ENV=production npx eleventy --pathprefix 'contextstudio'",
@@ -15,6 +15,10 @@
     "url": "git+https://github.com/paesku/mangiare"
   },
   "dependencies": {
-    "@11ty/eleventy": "2.0.1"
+    "@11ty/eleventy": "2.0.1",
+    "@grimlink/eleventy-plugin-sass": "1.0.3",
+    "autoprefixer": "10.4.16",
+    "postcss": "8.4.31",
+    "sass": "1.69.4"
   }
 }

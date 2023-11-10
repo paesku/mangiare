@@ -4,5 +4,6 @@ pagination:
     size: 1
     alias: recipe
 permalink: "recipes/{{ recipe.title | slugify }}/"
+layout: layouts/main.njk
 ---
 {% include "layouts/recipe.njk" %}

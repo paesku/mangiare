@@ -8,7 +8,12 @@
       "warm",
       "herd"
     ],
-    "images": [],
+    "images": [
+      {
+        "path": "bratkartoffeln.webp",
+        "isTeaser": true
+      }
+    ],
     "personCount": 2,
     "url": "https://www.gaumenfreundin.de/bratkartoffeln-einfach-und-knusprig",
     "ingredients": [
@@ -24,6 +29,84 @@
       },
       {
         "title": "Salz und Pfeffer"
+      }
+    ],
+    "instructions": [
+      {
+        "summary": "Kartoffeln in Butterschmalz anbraten."
+      }
+    ]
+  },
+  {
+    "title": "Tomaten Risotto",
+    "summary": "",
+    "duration": "~20min",
+    "tags": [
+      "easy",
+      "herd"
+    ],
+    "images": [
+      {
+        "path": "tomaten-risotto.webp",
+        "isTeaser": true
+      }
+    ],
+    "url": "https://www.lecker.de/tomatenrisotto-84177.html/Für 2 Personen",
+    "ingredients": [
+      {
+        "title": "kleine Zwiebel oder ½ Knoblauchzehe",
+        "amount": "1"
+      },
+      {
+        "title": "Kirschtomaten",
+        "amount": "150",
+        "unit": "g"
+      },
+      {
+        "title": "Olivenöl"
+      },
+      {
+        "title": "Risotto Reis",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "title": "½ Dose (à 400 g) stückige Tomaten",
+        "amount": "200",
+        "unit": "g"
+      },
+      {
+        "title": "Gemüsebrühe",
+        "amount": "500",
+        "unit": "ml"
+      },
+      {
+        "title": "Parmesan",
+        "amount": "100",
+        "unit": "g"
+      },
+      {
+        "title": "Butter",
+        "amount": "1",
+        "unit": "Esslöffel"
+      },
+      {
+        "title": "Salz und Pfeffer"
+      }
+    ],
+    "instructions": [
+      {
+        "summary": "Knoblauch oder Zwiebeln in Öl andünsten"
+      },
+      {
+        "summary": "Risotto Reis hinzufügen"
+      },
+      {
+        "summary": "Brühe nach und nach hinzufügen und köcheln bist die gewünschte Konsistenz erreicht ist (leicht Bissfest)",
+        "duration": "~15-20min"
+      },
+      {
+        "summary": "Butter und Käse unterrühren"
       }
     ]
   }

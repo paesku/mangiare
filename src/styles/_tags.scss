@@ -1,0 +1,14 @@
+.tag {
+  background-color: cornflowerblue;
+  color: rgb(20, 20, 20);
+  padding: 0.5rem .5rem;
+  margin-right: .5rem ;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+
+.tags {
+  margin-top: 1rem;
+  display: inline-flex;
+}

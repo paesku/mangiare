@@ -1,15 +1,23 @@
-<h1> {{ recipe.title }} </h1>
-<p> {{ recipe.summary}} </p>
+<h1>{{ recipe.title }}</h1>
+<p>{{ recipe.summary }}</p>
 
-<div class="tags">
-  {% for tag in recipe.tags -%}
-  <span class="tag">#{{ tag }}</span>
-  {% endfor -%}
+<div class="mb-2">
+    {% include "layouts/tags.njk" %}
 </div>
 
-<div>
-  {% for ingredient in recipe.ingredients -%}
-  <div>{{ ingredient.title }}</div>
-  {% endfor -%}
-</div>
+<div class="grid">
+    {% if recipe.images %}
+        <div class="images">
+            {% for image in recipe.images -%}
+                <img src="../../img/{{ image.path }}">
+            {% endfor -%}
+        </div>
+    {% endif %}
+    <div class="mb-2">
+        {% include "layouts/ingredients.njk" %}
+    </div>
 
+    <div>
+        {% include "layouts/instructions.njk" %}
+    </div>
+</div>
