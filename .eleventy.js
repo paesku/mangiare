@@ -10,7 +10,7 @@ module.exports = (config) => {
     config.addFilter('postCSS', filterPostCss);
 
     config.addPassthroughCopy({
-        'src/assets/images/*.(jpg|png|webp)': 'img'
+        'src/assets/images/*.(jpg|jpeg|png|webp)': 'img'
     });
 
     return {

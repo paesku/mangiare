@@ -27,7 +27,8 @@
             "medium",
             "hard",
             "warm",
-            "herd"
+            "herd",
+            "ofen"
           ]
         },
         "minItems": 1,
@@ -70,7 +71,8 @@
                 "kg",
                 "g",
                 "ml",
-                "Esslöffel"
+                "Esslöffel",
+                "Stück"
               ]
             },
             "amount": {

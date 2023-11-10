@@ -5,6 +5,8 @@
     {% include "layouts/tags.njk" %}
 </div>
 
+<div class="mb-1">Für {{recipe.personCount}} Personen in {{recipe.duration}} fertig</div>
+
 <div class="grid">
     {% if recipe.images %}
         <div class="images">
@@ -13,11 +15,11 @@
             {% endfor -%}
         </div>
     {% endif %}
-    <div class="mb-2">
+    <div class="mb-2 ingredients">
         {% include "layouts/ingredients.njk" %}
     </div>
 
-    <div>
+    <div class="instructions">
         {% include "layouts/instructions.njk" %}
     </div>
 </div>

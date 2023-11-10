@@ -1,7 +1,7 @@
 [
   {
     "title": "Bratkartoffeln",
-    "summary": "",
+    "summary": "Leckere Bratkartoffeln in ca. 15min fertig. Lecker mit Salat",
     "duration": "~10min",
     "tags": [
       "easy",
@@ -18,7 +18,7 @@
     "url": "https://www.gaumenfreundin.de/bratkartoffeln-einfach-und-knusprig",
     "ingredients": [
       {
-        "title": "Kartoffeln von zu Hause",
+        "title": "gekochte Kartoffeln von zu Hause",
         "unit": "kg",
         "amount": "0.5"
       },
@@ -107,6 +107,58 @@
       },
       {
         "summary": "Butter und Käse unterrühren"
+      }
+    ]
+  },
+  {
+    "title": "Fischstäbchen mit Kartoffeln",
+    "summary": "Super einfacher 'Kartoffelbrei mit Fischstäbchen",
+    "tags": [
+      "easy",
+      "herd"
+    ],
+    "personCount": 3,
+    "images": [
+      {
+        "path": "kartoffelbrei-mit-fischstaebchen.jpeg",
+        "isTeaser": true
+      }
+    ],
+    "duration": "30min",
+    "ingredients": [
+      {
+        "title": "Kartoffeln",
+        "amount": "6-7",
+        "unit": "Stück"
+      },
+      {
+        "title": "Fischstäbchen (1 Packung)",
+        "amount": "15",
+        "unit": "Stück"
+      },
+      {
+        "title": "Butter",
+        "amount": "2-3",
+        "unit": "Esslöffel"
+      }
+    ],
+    "instructions": [
+      {
+        "summary": "Kartoffeln schälen"
+      },
+      {
+        "summary": "Wasser mit Kartoffeln zum Kochen bringen, leicht köcheln",
+        "duration": "~30min"
+      },
+      {
+        "summary": "Ofen Vorheizen und Fischstäbchen reinschieben",
+        "duration": "~30min"
+      },
+      {
+        "summary": "Kartoffeln abgiessen"
+      },
+      {
+        "summary": "Kartoffeln auf Teller mit Butter zerdrücken und mit den Fischstäbchen servieren"
       }
     ]
   }
